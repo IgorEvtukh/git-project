@@ -85,4 +85,4 @@
 | `coefficient` | Float | Коэффициент, по которому была принята ставка |
 | `bet_amount` | Float | Сумма ставки |
 | `status` | String | Текущий статус: `pending`, `won`, `lost`, `refunded` |
-| `payout_amount` | Float | Сумма выплаты (для `lost`/`pending` = 0, для `refunded` = сумма ставки) |
+| `payout_amount` | Float | Сумма выплаты (для won = ставка × коэффициент, для lost/pending = 0, для refunded = сумма ставки) |
