@@ -13,7 +13,7 @@
 graph TD
 User[Пользователь] --> API[API Сервер]
 API --> DB[(PostgreSQL)]
-API --> Cache [(Redis Кэш)].
+API --> Cache [(Redis Кэш)]
 ```
 
 ## 📁 Структура документации
