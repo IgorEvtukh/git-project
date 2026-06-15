@@ -11,9 +11,9 @@
 
 ```mermaid
 graph TD
-User[Пользователь] --> API[API Сервер]
-API --> DB[(PostgreSQL)]
-API --> Cache [(Redis Кэш)]
+    User[Пользователь] --> API[API Сервер]
+    API --> DB[База данных PostgreSQL]
+    API --> Cache[Кэш Redis]
 ```
 
 ## 📁 Структура документации
