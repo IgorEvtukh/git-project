@@ -1,0 +1,17 @@
+# Спецификация ответа об ошибке для резюме
+ErrorResponse:
+  type: object
+  properties:
+    status:
+      type: integer
+      example: 400
+    error_code:
+      type: string
+      example: INSUFFICIENT_FUNDS
+    message:
+      type: string
+      example: Баланс пользователя недостаточен для совершения операции.
+    timestamp:
+      type: string
+      format: date-time
+      example: "2026-06-18T03:25:00Z"
