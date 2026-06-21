@@ -11,7 +11,7 @@
 ```json
 {
 
-  "username": "player_123",
+  "username": "player_1",
   "password": "super_secret_password"
 }
 ```
