@@ -50,7 +50,11 @@ docker-compose up -d
 docker ps
 ```
 
-Изучил Swagger, понял что это испытательный стенд для бэкэнда.
+### Изучил Swagger, понял для бэкэнда.
 Изучил коды ошибок в SWAGGER.
 Понял разницу между PUT / PATCH
 Успешно удалил объект через DELETE и проверил это с помощью GET.
+https://petstore.swagger.io/#/
+
+Изучил SQL запросы, SELECT WHERE ORDER BY LIMIT
+https://sqlime.org/#demo.db
