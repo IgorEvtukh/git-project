@@ -58,3 +58,5 @@ https://petstore.swagger.io/#/
 
 Изучил SQL запросы, SELECT WHERE ORDER BY LIMIT
 https://sqlime.org/#demo.db
+
+Изучил запрос DELETE / INSERT
